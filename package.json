@@ -1,6 +1,6 @@
 {
   "name": "link-extractor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The link-extractor library can be used to extract links from text documents",
   "main": "./cli.js",
   "bin": {
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/JJ-Falcone/primeiraBibliotecaNode",
   "dependencies": {
     "chalk": "5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
