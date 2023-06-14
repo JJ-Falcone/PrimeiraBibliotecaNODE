@@ -1,24 +1,29 @@
 {
-  "name": "2708-node-lib-md",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "link-extractor",
+  "version": "1.0.1",
+  "description": "The link-extractor library can be used to extract links from text documents",
+  "main": "./cli.js",
+  "bin": {
+    "link-extractor": "./cli.js"
+  },
+  "preferGlobal": true,
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cli": "node ./src/cli.js ./arquivos"
+    "cli": "node ./src/cli.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["markdown", "URL", "link", "txt"],
+  "author": "Jorge Falcone",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
+    "url": "https://github.com/JJ-Falcone",
+    "email": "jorgefalcone02@gmail.com"
   },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
+  "homepage": "https://github.com/JJ-Falcone/primeiraBibliotecaNode",
   "dependencies": {
     "chalk": "5.0.1"
   }

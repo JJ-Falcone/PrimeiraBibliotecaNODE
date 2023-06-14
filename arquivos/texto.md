@@ -6,3 +6,4 @@ São geralmente recuperados a partir de um objeto [FileList](https://developer.m
 [gatinho salsicha](http://gatinhosalsicha.com.br/)
 
 
+
